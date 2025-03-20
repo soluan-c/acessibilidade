@@ -55,7 +55,7 @@
   
   
   
-  .foliage-parallax {
+  .sub-header {
     background-image: url("wallpaperflare.com_wallpaper.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -79,7 +79,7 @@
   
   }
   
-  .image-text {
+  .intro {
     position: absolute;
     top: 50%;
     left: 50%;
