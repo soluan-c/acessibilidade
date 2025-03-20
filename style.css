@@ -1,18 +1,6 @@
 
-.bree-serif-regular {
-
-    font-family: "Bree Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: ArnoPro-Caption;
-    src: url("fonts/ArnoPro-Caption.otf") format("opentype");
-  }
-  
   body {
-    background-color: #F3F0E7;
+    background-color: #432C2C;
   }
   
   p, header, body, div{
@@ -23,17 +11,24 @@
   
   
   .header {
-    height: 7.2rem;
+    height: 4.5rem;
     line-height: 120px;
-    background-color: #024B2F;
+    background-color: #573E3E;
     color: white;
-    font-family: "Bree Serif", serif;
-    font-size: 64px;
-    text-align: center;
-    margin: 0;    
+    font-family: "Jaini";
+    font-size: 24px;
+    text-align: left;
+    margin: 0;  
+  
+  .header-text {
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   
   
@@ -45,11 +40,11 @@
     z-index: 100;
   }
   
-  .headerlogo {
+  .header-logo {
     width: 70x;
     height: 70px;
     line-height: 120px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-right: 20px;
   }
   
@@ -86,7 +81,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    font-size: 64px;
+    font-size: 24px;
     font-family: ArnoPro-Caption;
     font-style:bold;
   }
