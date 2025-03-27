@@ -15,7 +15,7 @@ window.onscroll = function() {
  }
  else{
      /* otherwise we're scrolling down & have passed the header so hide it */
-     headerDiv.style.top = "-7.2rem";
+     headerDiv.style.top = "-4.5rem";
  } 
 
  prevScrollpos = currentScrollPos;
