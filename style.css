@@ -19,19 +19,13 @@
     font-size: 24px;
     text-align: left;
     margin: 0;  
-  
-  .header-text {
-    margin-top: 10px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-  }
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   
-  
+
     position: fixed;
     top: 0;
     left: 0;
@@ -40,6 +34,10 @@
     z-index: 100;
   }
   
+  .header-text {
+    margin: 10px;
+  }
+
   .header-logo {
     width: 70x;
     height: 70px;
@@ -51,50 +49,18 @@
   
   
   .sub-header {
-    background-image: url("wallpaperflare.com_wallpaper.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 500px; 
-    height: 800px;
-  }
-  
-  .center {
+    background-color: #432C2C;
+    min-height: 350px; 
     
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 64px;
-   text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 1000;
-  
   }
+  
   
   .intro {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     color: white;
     font-size: 24px;
-    font-family: ArnoPro-Caption;
     font-style:bold;
+    font-family: "Jaini";
   }
-  
-  .intro-title {
-    margin-top: 25px;
-    font-weight: 900;
-    color: #0e3a29;
-    font-size: 32px;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 40px;
-  }
-  
-  
+
     
