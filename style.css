@@ -70,6 +70,7 @@
 
   .dot {
     padding: 10px;
+    padding-bottom: 0px;
     margin-right: 20px;
     height: 300px;
     width: 300px;
@@ -87,5 +88,23 @@
    height: 270px;
   }
 
+  .discos {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+  }
+
+  .album {
+    flex-direction:column;
+  }
+
+  .h3 {
+    background-color: #533636;
+    border-radius: 10%;
+  }
 
     
