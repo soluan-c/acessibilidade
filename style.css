@@ -99,10 +99,15 @@
   }
 
   .album {
-    flex-direction:column;
+    flex-direction: column;
   }
 
-  .h3 {
+.titulo-album {
+  background-color: #533636;
+    border-radius: 10%;
+}  
+
+  .conteudo-album {
     background-color: #533636;
     border-radius: 10%;
   }
